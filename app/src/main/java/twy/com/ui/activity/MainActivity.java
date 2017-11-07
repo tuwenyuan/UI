@@ -16,7 +16,8 @@ import twy.com.ui.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private String[] items = {
-            "pinned-selection-listview"
+            "pinned-selection-listview",
+            "jbox2d"
     };
     private ActivityMainBinding dataBinding;
 
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         switch (position){
             case 0:
                 startActivity(new Intent(this,PinnedListViewSubjectActivity.class));
+                break;
+            case 1:
+                startActivity(new Intent(this,JboxActivity.class));
                 break;
         }
     }
