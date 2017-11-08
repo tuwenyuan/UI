@@ -12,3 +12,6 @@ android ui 效果汇集
 #### 3.状态栏效果1
 
 ![状态栏效果1](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/statusbar2.gif)
+
+#### 4.绘制饼图
+![饼图](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/1.png)
