@@ -4,8 +4,8 @@
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <ListView
-            android:id="@+id/lv"
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
         <android.support.design.widget.FloatingActionButton
@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
             android:elevation="10dp"
+            android:visibility="invisible"
             app:rippleColor="@color/colorPrimary"
             app:fabSize="normal"
             app:layout_behavior="com.twy.ui.utils.FloatingButtonBehavior"

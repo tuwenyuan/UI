@@ -4,11 +4,12 @@ import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 import android.widget.AdapterView;
 
 import com.twy.ui.R;
-import com.twy.ui.adpter.SubjectAdapter;
+import com.twy.ui.adpter.SubjectRvAdapter;
 import com.twy.ui.databinding.ActivityMainBinding;
 
 import java.util.Arrays;
@@ -20,7 +21,30 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "pinned-selection-listview",
             "jbox2d",
             "透明状态栏效果1",
-            "linePieView"
+            "linePieView",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test",
+            "test"
     };
     private ActivityMainBinding dataBinding;
 
@@ -34,12 +58,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void initData() {
-        SubjectAdapter mAdapter = new SubjectAdapter(this,getLayoutInflater(), Arrays.asList(items));
-        dataBinding.lv.setAdapter(mAdapter);
+        //SubjectAdapter mAdapter = new SubjectAdapter(this,getLayoutInflater(), Arrays.asList(items));
+        SubjectRvAdapter mAdapter = new SubjectRvAdapter(this,getLayoutInflater(), Arrays.asList(items));
+        dataBinding.rv.setLayoutManager(new LinearLayoutManager(this));
+        dataBinding.rv.setAdapter(mAdapter);
     }
 
     private void initListener() {
-        dataBinding.lv.setOnItemClickListener(this);
+        //dataBinding.rv.setOnItemClickListener(this);
     }
 
     @Override
