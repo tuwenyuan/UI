@@ -1,4 +1,4 @@
-package twy.com.ui.activity;
+package com.twy.ui.activity;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -7,11 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 
+import com.twy.ui.R;
+import com.twy.ui.adpter.SubjectAdapter;
+import com.twy.ui.databinding.ActivityMainBinding;
+
 import java.util.Arrays;
 
-import twy.com.ui.R;
-import twy.com.ui.adapter.SubjectAdapter;
-import twy.com.ui.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 

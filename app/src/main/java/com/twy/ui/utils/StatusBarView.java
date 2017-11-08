@@ -1,4 +1,4 @@
-package twy.com.ui.utils;
+package com.twy.ui.utils;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package twy.com.ui.utils;
+package com.twy.ui.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Toast;
 
-import twy.com.ui.base.BaseAplication;
+import com.twy.ui.base.BaseAplication;
 
 /**
  * @描述: 和UI操作相关的类

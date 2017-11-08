@@ -1,4 +1,4 @@
-package twy.com.ui.adapter;
+package com.twy.ui.adpter;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -9,11 +9,12 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.twy.ui.R;
+import com.twy.ui.databinding.ItemMainListBinding;
 
 import java.util.List;
 
-import twy.com.ui.R;
-import twy.com.ui.databinding.ItemMainListBinding;
+
 
 /**
  * 创建者     涂文远
@@ -54,7 +55,7 @@ public class SubjectAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ItemMainListBinding binding;
         if(convertView==null){
-            binding = DataBindingUtil.inflate(inflater,R.layout.item_main_list,parent,false);
+            binding = DataBindingUtil.inflate(inflater, R.layout.item_main_list,parent,false);
         }else{
             binding = DataBindingUtil.getBinding(convertView);
         }

@@ -5,7 +5,7 @@
  * Last modified 17-7-21 下午9:35
  */
 
-package twy.com.ui.view;
+package com.twy.ui.view;
 
 
 import android.content.Context;

@@ -1,16 +1,17 @@
-package twy.com.ui.activity;
+package com.twy.ui.activity;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.twy.ui.R;
+import com.twy.ui.adpter.PlvSubjectAdapter;
+import com.twy.ui.databinding.ActivityPinnedListViewSubjectBinding;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import twy.com.ui.R;
-import twy.com.ui.adapter.PlvSubjectAdapter;
-import twy.com.ui.databinding.ActivityPinnedListViewSubjectBinding;
 
 /**
  * Created by twy on 2017/11/7.

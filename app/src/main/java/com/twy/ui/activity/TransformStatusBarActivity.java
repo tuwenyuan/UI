@@ -1,4 +1,4 @@
-package twy.com.ui.activity;
+package com.twy.ui.activity;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -7,10 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import twy.com.ui.R;
-import twy.com.ui.databinding.ActivityTransformStatusBarBinding;
-import twy.com.ui.utils.StatusBarUtil;
-import twy.com.ui.view.ListeningScrollView;
+import com.twy.ui.R;
+import com.twy.ui.databinding.ActivityTransformStatusBarBinding;
+import com.twy.ui.utils.StatusBarUtil;
+import com.twy.ui.view.ListeningScrollView;
+
 
 /**
  * Created by twy on 2017/11/8.

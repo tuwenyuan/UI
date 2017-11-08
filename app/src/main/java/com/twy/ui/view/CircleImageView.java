@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package twy.com.ui.view;
+package com.twy.ui.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -37,7 +37,7 @@ import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import twy.com.ui.R;
+import com.twy.ui.R;
 
 
 @SuppressLint("AppCompatCustomView")

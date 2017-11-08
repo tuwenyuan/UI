@@ -1,4 +1,4 @@
-package twy.com.ui.base;
+package com.twy.ui.base;
 
 import android.app.Application;
 import android.content.Context;

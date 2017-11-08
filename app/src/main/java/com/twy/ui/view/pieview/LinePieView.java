@@ -1,4 +1,4 @@
-package twy.com.ui.view.pieview;
+package com.twy.ui.view.pieview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,13 +10,13 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.twy.ui.R;
+import com.twy.ui.utils.StringUtil;
+import com.twy.ui.utils.UIUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import twy.com.ui.R;
-import twy.com.ui.utils.StringUtil;
-import twy.com.ui.utils.UIUtils;
 
 /**
  * <p>

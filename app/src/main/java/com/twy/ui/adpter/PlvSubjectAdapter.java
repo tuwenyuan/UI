@@ -1,4 +1,4 @@
-package twy.com.ui.adapter;
+package com.twy.ui.adpter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,9 +10,10 @@ import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.twy.ui.view.PinnedSectionListView;
+
 import java.util.List;
 
-import twy.com.ui.view.PinnedSectionListView;
 
 /**
  * 创建者     涂文远

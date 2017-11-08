@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView
-        android:id="@+id/lv"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:elevation="10dp"
+            app:rippleColor="@color/colorPrimary"
+            app:fabSize="normal"
+            app:layout_behavior="com.twy.ui.utils.FloatingButtonBehavior"
+            android:src="@mipmap/ic_launcher"/>
+    </android.support.design.widget.CoordinatorLayout>
 </layout>
 

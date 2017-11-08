@@ -1,4 +1,4 @@
-package twy.com.ui.activity;
+package com.twy.ui.activity;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -13,8 +13,9 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import twy.com.ui.R;
-import twy.com.ui.databinding.ActivityJboxBinding;
+import com.twy.ui.R;
+import com.twy.ui.databinding.ActivityJboxBinding;
+
 
 /**
  * Created by twy on 2017/11/7.

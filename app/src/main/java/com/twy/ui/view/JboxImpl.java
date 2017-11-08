@@ -5,11 +5,13 @@
  * Last modified 17-7-21 下午9:35
  */
 
-package twy.com.ui.view;
+package com.twy.ui.view;
 
 
 import android.util.Log;
 import android.view.View;
+
+import com.twy.ui.R;
 
 import org.jbox2d.collision.shapes.CircleShape;
 import org.jbox2d.collision.shapes.PolygonShape;
@@ -23,7 +25,6 @@ import org.jbox2d.dynamics.World;
 
 import java.util.Random;
 
-import twy.com.ui.R;
 
 
 public class JboxImpl {

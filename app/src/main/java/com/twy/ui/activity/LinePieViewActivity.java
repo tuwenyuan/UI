@@ -1,4 +1,4 @@
-package twy.com.ui.activity;
+package com.twy.ui.activity;
 
 import android.databinding.DataBindingUtil;
 import android.graphics.Color;
@@ -6,11 +6,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.twy.ui.R;
+import com.twy.ui.databinding.ActivityLinePieViewBinding;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import twy.com.ui.R;
-import twy.com.ui.databinding.ActivityLinePieViewBinding;
 
 /**
  * Created by twy on 2017/11/8.

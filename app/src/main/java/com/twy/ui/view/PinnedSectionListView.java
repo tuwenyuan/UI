@@ -1,4 +1,4 @@
-package twy.com.ui.view;
+package com.twy.ui.view;
 
 import android.content.Context;
 import android.database.DataSetObserver;
@@ -21,7 +21,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SectionIndexer;
 
-import twy.com.ui.BuildConfig;
+import com.twy.ui.BuildConfig;
 
 
 /**
