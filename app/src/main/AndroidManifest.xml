@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".base.BaseAplication"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity"
             android:theme="@style/MainTheme">
@@ -22,6 +23,8 @@
         <activity android:name=".activity.JboxActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.TransformStatusBarActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.LinePieViewActivity"
             android:screenOrientation="portrait"/>
     </application>
 

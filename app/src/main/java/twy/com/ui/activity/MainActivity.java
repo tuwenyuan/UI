@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private String[] items = {
             "pinned-selection-listview",
             "jbox2d",
-            "透明状态栏效果1"
+            "透明状态栏效果1",
+            "linePieView"
     };
     private ActivityMainBinding dataBinding;
 
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 2:
                 startActivity(new Intent(this,TransformStatusBarActivity.class));
+                break;
+            case 3:
+                startActivity(new Intent(this,LinePieViewActivity.class));
                 break;
         }
     }
