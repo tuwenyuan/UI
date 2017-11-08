@@ -9,6 +9,7 @@ import android.view.View;
 
 import twy.com.ui.R;
 import twy.com.ui.databinding.ActivityTransformStatusBarBinding;
+import twy.com.ui.utils.StatusBarUtil;
 import twy.com.ui.view.ListeningScrollView;
 
 /**
@@ -28,6 +29,8 @@ public class TransformStatusBarActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        StatusBarUtil.setTranslucentForImageView(this,0,null);
+        binding.rlStatus.getLayoutParams().height = StatusBarUtil.getStatusBarHeight(this);
         binding.sv.setScrollYViewListener(new ListeningScrollView.ScrollYListener() {
             @Override
             public void onScrollChanged(int y) {
