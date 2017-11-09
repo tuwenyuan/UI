@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.twy.ui.view.FlowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.twy.ui.view.SwitchHeaderButton
+                android:id="@+id/shb"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                app:leftText="Item1"
+                app:rightText="Item2"/>
+
+            <com.twy.ui.view.CircleImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@mipmap/mn"/>
+            <com.twy.ui.view.CircleTextImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circle_textview_background"
+                app:citv_border_color="#000"
+                android:scaleType="centerCrop"
+                app:citv_border_width="2dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/mn"
+                app:citv_text_text="照片"
+                app:citv_text_size="12sp"
+                app:citv_text_padding="35dp"
+                app:citv_text_color="#f00"
+                app:citv_fill_color="#999999"/>
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:id="@+id/id_progressbar01"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:padding="5dp" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:padding="5dp"
+                android:progress="10"
+                app:progress_text_color="#ff2903FC"
+                app:progress_unreached_color="#ffBCB4E8" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:background="#44ff0000"
+                android:progress="30"
+                app:progress_text_color="#ff03F793"
+                app:progress_text_size="30dp"
+                app:progress_unreached_color="#ffAFF2D6" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:padding="5dp"
+                android:progress="50"
+                app:progress_text_color="#ffF53B03"
+                app:progress_unreached_color="#ffF7C6B7" />
+
+            <com.twy.ui.view.RoundProgressBarWidthNumber
+                android:id="@+id/id_progress02"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dip"
+                android:background="#44ff0000"
+                android:progress="30" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:background="#44ff0000"
+                android:padding="5dp"
+                android:progress="50"
+                app:progress_reached_bar_height="20dp"
+                app:progress_text_color="#ffF53B03"
+                app:radius="60dp" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:background="#44ff0000"
+                android:padding="15dp"
+                android:progress="70"
+                app:progress_text_color="#ff2903FC"
+                app:progress_text_size="30sp"
+                app:progress_unreached_color="#ffBCB4E8"
+                app:radius="80dp" />
+
+            <com.twy.ui.view.HorizontalProgressBarWithNumber
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dip"
+                android:background="#44ff0000"
+                android:padding="5dp"
+                android:progress="70"
+                app:progress_reached_bar_height="20dp"
+                app:progress_text_color="#ffF53B03"
+                app:progress_unreached_color="#00F7C6B7" />
+            
+        </com.twy.ui.view.FlowLayout>
+    </ScrollView>
+</layout>

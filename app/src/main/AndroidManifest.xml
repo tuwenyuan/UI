@@ -26,6 +26,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.LinePieViewActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.CustomControlActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

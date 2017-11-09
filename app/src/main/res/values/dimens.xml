@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="switchheaderbutton_corner">6dp</dimen>
+    <dimen name="switchheaderbutton_padding">2dp</dimen>
+    <dimen name="switchheaderbutton_grouppadding">1dp</dimen>
+</resources>

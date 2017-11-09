@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/switch_header_button_container"
+        android:background="@drawable/sel_switch_header_button_container"
+        android:padding="@dimen/switchheaderbutton_grouppadding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/switch_header_button_left"
+            android:button="@null"
+            android:background="@drawable/sel_switch_header_button_left"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="@color/text_samp1"
+            android:checked="true"
+            android:gravity="center"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:padding="4dp"
+            android:id="@+id/switch_header_button_right"
+            android:button="@null"
+            android:textColor="@color/text_samp1"
+            android:background="@drawable/sel_switch_header_button_right"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+</merge>

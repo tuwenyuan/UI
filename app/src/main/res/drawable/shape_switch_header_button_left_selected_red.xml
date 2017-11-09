@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:bottomLeftRadius="@dimen/switchheaderbutton_corner" android:topLeftRadius="@dimen/switchheaderbutton_corner"/>
+    <solid android:color="@color/redpacket_red1"/>
+</shape>
