@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="260dp"
+                android:layout_height="320dp"
+                android:background="@drawable/bg_common_warn_dialog">
+    <ImageView
+        android:id="@+id/iv_close"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/b_close_d"
+        android:layout_alignParentRight="true"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/tv_mycode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的二维码"
+        android:textSize="18sp"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="25dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"/>
+    <RelativeLayout
+        android:id="@+id/fl_content"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:layout_below="@id/tv_mycode">
+        <ImageView
+            android:id="@+id/iv_code"
+            android:layout_width="170dp"
+            android:layout_height="170dp"/>
+        <FrameLayout
+            android:id="@+id/fl_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <include layout="@layout/view_loading"/>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_content"
+        android:text="让好友通过微信扫码注册赚取易币"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="26dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="#000000"/>
+</RelativeLayout>

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "透明状态栏效果1",
             "自定义饼图",
             "自定义控件集合",
-            "test",
+            "ZXing二维码",
             "test",
             "test",
             "test",
@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 4:
                 startActivity(new Intent(this,CustomControlActivity.class));
+                break;
+            case 5:
+                startActivity(new Intent(this,ZXingActivity.class));
                 break;
         }
     }
