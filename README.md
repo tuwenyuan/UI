@@ -21,3 +21,6 @@ android ui 效果汇集
 
 #### 6.FloatingActionButton 自定义控件集合
 ![自定义控件集合](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a3.png)
+
+#### 7.zxing生成二维码
+![zxing生成二维码](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/zxing.png)
