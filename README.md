@@ -24,3 +24,6 @@ android ui 效果汇集
 
 #### 7.zxing生成二维码
 ![zxing生成二维码](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/zxing.png)
+
+#### 8.android中转动画效果
+![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a4.gif)
