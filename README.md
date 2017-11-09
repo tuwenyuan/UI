@@ -18,3 +18,6 @@ android ui 效果汇集
 
 #### 5.FloatingActionButton 往上滑显示 往下滑隐藏
 ![floatingActionButton](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a2.gif)
+
+#### 6.FloatingActionButton 自定义控件集合
+![自定义控件集合](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a3.png)
