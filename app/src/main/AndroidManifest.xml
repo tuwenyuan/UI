@@ -40,6 +40,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.AnimeDetailActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PullToRefreshActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

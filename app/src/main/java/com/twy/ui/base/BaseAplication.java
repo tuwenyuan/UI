@@ -2,6 +2,7 @@ package com.twy.ui.base;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.Handler;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -20,12 +21,13 @@ public class BaseAplication extends Application {
 
 
     private static Context instance;
+    public static Handler mHandler;
 
     @Override
     public void onCreate() {
         super.onCreate();
         instance = this;
-
+        mHandler = new Handler();
         initImageLoader(getApplicationContext());
     }
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">100dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <!-- 下拉刷新字体 -->
+    <dimen name="refresh_loading_text_size">14dp</dimen>
+    <dimen name="refresh_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">30dp</dimen>
+
+</resources>

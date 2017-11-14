@@ -13,6 +13,8 @@ import java.math.BigDecimal;
 import java.net.URLEncoder;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
@@ -458,6 +460,12 @@ public class StringUtil {
             return format;
         }
         return format.toString();
+    }
+
+    public static String getCurrentLocalDate(){
+        SimpleDateFormat format = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        String t=format.format(new Date());
+        return t;
     }
 
 }

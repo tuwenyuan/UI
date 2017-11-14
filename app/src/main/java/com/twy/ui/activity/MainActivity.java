@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "自定义控件集合",
             "ZXing二维码",
             "android中转场动画",
-            "test",
+            "扩展pull_to_Refresh自动加载更多及自动下拉刷新功能",
             "test",
             "test",
             "test",
@@ -71,27 +71,6 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
 
     }
 
-    /*@Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        switch (position){
-            case 0:
-                startActivity(new Intent(this,PinnedListViewSubjectActivity.class));
-                break;
-            case 1:
-                startActivity(new Intent(this,JboxActivity.class));
-                break;
-            case 2:
-                startActivity(new Intent(this,TransformStatusBarActivity.class));
-                break;
-            case 3:
-                startActivity(new Intent(this,LinePieViewActivity.class));
-                break;
-            case 4:
-                startActivity(new Intent(this,CustomControlActivity.class));
-                break;
-        }
-    }*/
-
     @Override
     public void onItemClick(View view, int position) {
         switch (position){
@@ -115,6 +94,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 6:
                 startActivity(new Intent(this,AnimeActivity.class));
+                break;
+            case 7:
+                startActivity(new Intent(this,PullToRefreshActivity.class));
                 break;
         }
     }
