@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "ZXing二维码",
             "android中转场动画",
             "扩展pull_to_Refresh自动加载更多及自动下拉刷新功能",
-            "test",
-            "test",
+            "SwipeRefreshLayout",
+            "SwipeRefreshLayout扩展加载更多",
             "test",
             "test",
             "test",
@@ -97,6 +97,12 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 7:
                 startActivity(new Intent(this,PullToRefreshActivity.class));
+                break;
+            case 8:
+                startActivity(new Intent(this,SwipeRefreshLayoutActivity.class));
+                break;
+            case 9:
+                startActivity(new Intent(this,SwipeRefreshLayoutExpendActivity.class));
                 break;
         }
     }
