@@ -19,7 +19,7 @@ android ui 效果汇集
 #### 5.FloatingActionButton 往上滑显示 往下滑隐藏
 ![floatingActionButton](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a2.gif)
 
-#### 6.FloatingActionButton 自定义控件集合
+#### 6.自定义控件集合
 ![自定义控件集合](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a3.png)
 
 #### 7.zxing生成二维码
@@ -27,3 +27,6 @@ android ui 效果汇集
 
 #### 8.android中转动画效果
 ![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a4.gif)
+
+#### 9.扩展pull_to_refresh 首次自动下拉刷新及滑到底部自动加载更多等...
+![pull_to_refresh](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/pull_to_refresh_expend.gif)
