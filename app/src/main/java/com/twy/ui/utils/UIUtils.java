@@ -125,6 +125,13 @@ public class UIUtils {
         return heightDiff > softKeyboardHeight * dm.density;
     }
 
+    public static int getScreenWidth(Context context) {
+        DisplayMetrics dm = new DisplayMetrics();
+        ((Activity) context).getWindowManager().getDefaultDisplay()
+                .getMetrics(dm);
+        return dm.widthPixels;
+    }
+
 
 }
 

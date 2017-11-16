@@ -42,4 +42,26 @@
         <!-- 设置屏幕变暗 -->
         <item name="android:backgroundDimEnabled">true</item>
     </style>
+
+    <!-- 模考首页style -->
+    <style name="tv_exam_top_training">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/tv_exam_background</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_flag_01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/flag_01</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
 </resources>

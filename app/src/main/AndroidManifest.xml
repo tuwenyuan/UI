@@ -46,6 +46,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.SwipeRefreshLayoutExpendActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PicStyleActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

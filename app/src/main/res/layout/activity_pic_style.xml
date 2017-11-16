@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--厨窗主题-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:visibility="visible">
+            <ImageView
+                android:id="@+id/iv_kitchen_window_one"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/kitchen1"/>
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#DEDEDE"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/iv_kitchen_window_two"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/kitchen2"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#DEDEDE"/>
+                <ImageView
+                    android:id="@+id/iv_kitchen_window_three"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:clickable="true"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/kitchen3"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#dedede" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#f0f0f0" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#dedede" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_training_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_traning_order"
+                    style="@style/tv_exam_top_training"
+                    android:background="@drawable/selector_lv_item"
+                    android:drawableTop="@mipmap/ic_shunxu"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="45dp"
+                    android:text="顺序练习"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/tv_traning_chapter"
+                    style="@style/tv_exam_top_training"
+                    android:background="@drawable/selector_lv_item"
+                    android:drawableTop="@mipmap/ic_zhangjie"
+                    android:paddingLeft="45dp"
+                    android:paddingRight="5dp"
+                    android:text="章节练习"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_training_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_training_one"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_traning_random"
+                    style="@style/tv_exam_top_training"
+                    android:background="@drawable/selector_lv_item"
+                    android:drawableTop="@mipmap/ic_suiji"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="45dp"
+                    android:text="随机练习"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:id="@+id/tv_traning_special"
+                    style="@style/tv_exam_top_training"
+                    android:background="@drawable/selector_lv_item"
+                    android:drawableTop="@mipmap/ic_zhuangxiang"
+                    android:paddingLeft="45dp"
+                    android:paddingRight="5dp"
+                    android:text="专项练习"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_exam_mock"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/mock_exam_center_background"
+                android:drawablePadding="0dp"
+                android:drawableTop="@mipmap/menu_btn_test"
+                android:gravity="center"
+                android:padding="35dp"
+                android:text="模拟考试"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
