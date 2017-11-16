@@ -30,3 +30,6 @@ android ui 效果汇集
 
 #### 9.扩展pull_to_refresh 首次自动下拉刷新及滑到底部自动加载更多等...
 ![pull_to_refresh](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/pull_to_refresh_expend.gif)
+
+#### 10.SwipeRefreshLayout 扩展滑到底部自动加载更多
+![SwipeRefreshLayout](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/swipe_refresh_layout_expend.gif)
