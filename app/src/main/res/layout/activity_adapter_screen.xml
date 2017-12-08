@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="Hello World!"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="Hello World!"/>
+        <com.twy.ui.utils.shipei.PrecentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:background="#00f"
+                android:gravity="center"
+                app:layout_widthPrecent="0.5"
+                app:layout_heightPrecent="0.5"
+                android:text="Hello World!"/>
+        </com.twy.ui.utils.shipei.PrecentRelativeLayout>
+
+    </LinearLayout>
+</layout>

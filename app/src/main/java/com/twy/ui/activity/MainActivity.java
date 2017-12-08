@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "SwipeRefreshLayout",
             "SwipeRefreshLayout扩展加载更多",
             "厨具窗口设计",
-            "test",
+            "100%屏幕适配",
             "test",
             "test",
             "test",
@@ -106,6 +106,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 10:
                 startActivity(new Intent(this,PicStyleActivity.class));
+                break;
+            case 11:
+                startActivity(new Intent(this,AdapterScreenActivity.class));
                 break;
         }
     }

@@ -64,4 +64,17 @@
         <attr name="qrcv_animTime" format="integer"/>
     </declare-styleable>
 
+    <declare-styleable name="PrecentRelativeLayout">
+        <attr name="layout_widthPrecent" format="float"></attr>
+        <attr name="layout_heightPrecent" format="float"></attr>
+    </declare-styleable>
+    <declare-styleable name="PrecentLinearLayout">
+        <attr name="adapter_width" format="integer"></attr>
+        <attr name="adapter_height" format="integer"></attr>
+        <attr name="adapter_margin_top" format="integer"></attr>
+        <attr name="adapter_margin_bottom" format="integer"></attr>
+        <attr name="adapter_margin_left" format="integer"></attr>
+        <attr name="adapter_margin_right" format="integer"></attr>
+    </declare-styleable>
+
 </resources>
