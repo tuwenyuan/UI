@@ -36,3 +36,10 @@ android ui 效果汇集
 
 #### 11.厨具窗口设计
 ![11](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a5.png)
+
+#### 12.屏幕适配方案
+![12.1](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a6.png)
+
+
+![12.2](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a7.png)
+
