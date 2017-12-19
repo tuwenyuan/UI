@@ -149,7 +149,7 @@ public class EasyGuideViewActivity extends AppCompatActivity {
                         Log.i("TAG", "dismiss");
                     }
                 })
-                .dismissAnyWhere(true)
+                .dismissAnyWhere(false)
                 .build();
 
         easyGuide.show();
