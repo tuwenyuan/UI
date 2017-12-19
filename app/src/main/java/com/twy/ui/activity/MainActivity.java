@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "厨具窗口设计",
             "100%屏幕适配",
             "新手引导",
-            "test",
+            "tablayout实现带图片",
             "test",
             "test",
             "test",
@@ -112,6 +112,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 12:
                 startActivity(new Intent(this,EasyGuideViewActivity.class));
+                break;
+            case 13:
+                startActivity(new Intent(this,TabLayoutImgActivity.class));
                 break;
         }
     }
