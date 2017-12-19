@@ -43,3 +43,9 @@ android ui 效果汇集
 
 ![12.2](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a7.png)
 
+#### 13.app新手引导页面
+![app新手引导页面](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a8.png)
+
+
+![app新手引导页面](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a9.png)
+
