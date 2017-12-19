@@ -49,6 +49,8 @@
         <activity android:name=".activity.PicStyleActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.AdapterScreenActivity"/>
+        <activity android:name=".activity.EasyGuideViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
