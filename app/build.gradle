@@ -39,4 +39,5 @@ dependencies {
     compile 'com.android.support:palette-v7:24.2.1'
     implementation project(':pull_to_refresh_library')
     implementation project(':guide_view_library')
+    implementation project(':timepickerviewlib')
 }

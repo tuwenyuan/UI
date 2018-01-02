@@ -53,6 +53,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.TabLayoutImgActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.TimePickerViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
