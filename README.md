@@ -53,5 +53,8 @@ android ui 效果汇集
 ![TabLayout扩展带图片](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a10.png)
 
 #### 15.仿ios时间选择控件
-![TabLayout扩展带图片](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a11.png)
+![仿ios时间选择控件](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a11.png)
+
+#### 16.Android富文本
+![Android富文本](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a12.gif)
 
