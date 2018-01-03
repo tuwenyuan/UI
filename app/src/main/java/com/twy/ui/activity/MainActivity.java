@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "新手引导",
             "tablayout实现带图片",
             "仿ios选择时间控件",
-            "test",
+            "富文本",
             "test",
             "test",
             "test",
@@ -118,6 +118,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 14:
                 startActivity(new Intent(this,TimePickerViewActivity.class));
+                break;
+            case 15:
+                startActivity(new Intent(this,SpannableStringActivity.class));
                 break;
         }
     }
