@@ -37,6 +37,7 @@ public class AnimeActivity extends AppCompatActivity {
         intent.setSourceBounds(rect);
         CustomImage customImage = (CustomImage) view;
         intent.putExtra(AnimeDetailActivity.EXTRA_IMAGE, customImage.getImageId());
+        intent.putExtra("tag",view.getTag().toString());
         startActivity(intent);
         // 屏蔽 Activity 默认转场效果
         overridePendingTransition(0, 0);

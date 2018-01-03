@@ -63,6 +63,7 @@ public class AnimeDetailActivity extends AppCompatActivity {
      * 上一个界面图片的位置信息
      */
     private Rect mRect;
+    private int tag;
 
     @Override
     public void onBackPressed() {
@@ -95,6 +96,7 @@ public class AnimeDetailActivity extends AppCompatActivity {
         // 获取上一个界面传入的信息
         mRect = getIntent().getSourceBounds();
         mRescourceId = getIntent().getExtras().getInt(EXTRA_IMAGE);
+        tag = Integer.parseInt(getIntent().getStringExtra("tag"));
 
         // 获取上一个界面中，图片的宽度和高度
         mOriginWidth = mRect.right - mRect.left;
@@ -114,7 +116,11 @@ public class AnimeDetailActivity extends AppCompatActivity {
         Bitmap bitmap = bitmapDrawable.getBitmap();
 
         // 计算图片缩放比例和位移距离
-        getBundleInfo(bitmap);
+        if(tag%2==0) {
+            getBundleInfo(bitmap);
+        }else{
+            getBundleInfo1(bitmap);
+        }
 
         // 创建一个 Pallette 对象
         mImagePalette = Palette.from(bitmap).generate();
@@ -140,6 +146,19 @@ public class AnimeDetailActivity extends AppCompatActivity {
         // 计算位移距离，并将数据存储到 bundle 中
         mTransitionBundle.putFloat(TRANSITION_X, mScreenWidth / 2 - (mRect.left + (mRect.right - mRect.left) / 2));
         mTransitionBundle.putFloat(TRANSITION_Y, mScreenHeight / 2 - (mRect.top + (mRect.bottom - mRect.top) / 2));
+    }
+    private void getBundleInfo1(Bitmap bitmap) {
+        // 计算图片缩放比例，并存储在 bundle 中
+        if (bitmap.getWidth() >= bitmap.getHeight()) {
+            mScaleBundle.putFloat(SCALE_WIDTH, (float) mScreenWidth / mOriginWidth);
+            mScaleBundle.putFloat(SCALE_HEIGHT, (float) bitmap.getHeight() / mOriginHeight);
+        } else {
+            mScaleBundle.putFloat(SCALE_WIDTH, (float) bitmap.getWidth() / mOriginWidth);
+            mScaleBundle.putFloat(SCALE_HEIGHT, (float) mScreenHeight / mOriginHeight);
+        }
+        // 计算位移距离，并将数据存储到 bundle 中
+        mTransitionBundle.putFloat(TRANSITION_X, mScreenWidth / 2 - (mRect.left + (mRect.right - mRect.left) / 2));
+        mTransitionBundle.putFloat(TRANSITION_Y,  0-mRect.top+(mScaleBundle.getFloat(SCALE_HEIGHT)*mOriginHeight/2-((mRect.bottom - mRect.top) / 2)));
     }
 
     /**
