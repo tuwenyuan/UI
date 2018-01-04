@@ -57,6 +57,45 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.SpannableStringActivity"
             android:screenOrientation="portrait"/>
+
+        <!--springview-->
+        <activity android:name=".activity.springviewactivity.SpringViewActivity"
+            android:label="DemoSpring"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo1Activity"
+            android:label="Demo1Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo2Activity"
+            android:label="Demo2Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo3Activity"
+            android:label="Demo3Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo4Activity"
+            android:label="Demo4Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo5Activity"
+            android:label="Demo5Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo6Activity"
+            android:label="Demo6Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo7Activity"
+            android:label="Demo7Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo8Activity"
+            android:label="Demo8Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.Demo9Activity"
+            android:label="Demo9Activity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.TestActivity"
+            android:label="TestActivity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
+        <activity android:name=".activity.springviewactivity.WarningActivity"
+            android:label="WarningActivity"
+            android:theme="@style/AppTheme1.NoActionBar"/>
     </application>
+    <!--springview-->
 
 </manifest>

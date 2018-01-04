@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">向上拉加载更多</string>
+    <string name="pull_to_refresh_from_bottom_pull_label1">刷新成功</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">刷新中…</string>
+    <string name="pull_to_refresh_from_bottom_release_label">松开看看</string>
+    <string name="pull_to_refresh_header_hint_loading">正在加载中…</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+    <string name="pull_to_refresh_pull_label">向下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新中…</string>
+    <string name="pull_to_refresh_release_label">松开看看</string>
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+</resources>

@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
 
 import com.twy.ui.R;
+import com.twy.ui.activity.springviewactivity.SpringViewActivity;
 import com.twy.ui.adpter.SubjectRvAdapter;
 import com.twy.ui.databinding.ActivityMainBinding;
 
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "tablayout实现带图片",
             "仿ios选择时间控件",
             "富文本",
-            "test",
+            "SpringView",
             "test",
             "test",
             "test",
@@ -121,6 +122,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 15:
                 startActivity(new Intent(this,SpannableStringActivity.class));
+                break;
+            case 16:
+                startActivity(new Intent(this,SpringViewActivity.class));
                 break;
         }
     }

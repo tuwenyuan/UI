@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#68b3f3"
+        android:gravity="center"
+        android:text="test for SpringView"
+        android:textColor="#FFFFFF" />
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:paddingBottom="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        app:footer="@layout/footer"
+        app:header="@layout/header"
+        app:type="overlap">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#28d3ff"
+                    android:gravity="center"
+                    android:text="We are in ScrollView"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#68b3f3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#28d3ff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#68b3f3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#28d3ff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#68b3f3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#28d3ff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#68b3f3" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </com.liaoinstan.springview.widget.SpringView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/group_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 禁用:"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/check_enableheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="禁止header"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/check_enableFooter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="禁止footer"
+                android:textSize="12sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_callfresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:onClick="onClick"
+                android:text="callFresh" />
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/group_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 样式:"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/overlap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="overlap(重叠)"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/follow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="follow(跟随)"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/group_give"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 停顿:"
+                android:textColor="#000000" />
+
+            <RadioButton
+                android:id="@+id/both"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="both"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="only top"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="only bottom"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/none"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>
