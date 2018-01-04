@@ -58,3 +58,5 @@ android ui 效果汇集
 #### 16.Android富文本
 ![Android富文本](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a12.gif)
 
+#### 17.集成第三方SpringView效果 原地址（ https://github.com/liaoinstan/SpringView ）
+
