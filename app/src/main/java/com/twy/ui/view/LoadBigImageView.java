@@ -201,6 +201,7 @@ public class LoadBigImageView extends View implements GestureDetector.OnGestureL
      */
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+
         /**
          * startX: 滑动开始的x坐标
          * startY: 滑动开始的y坐标
