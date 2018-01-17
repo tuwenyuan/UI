@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "仿ios选择时间控件",
             "富文本",
             "SpringView",
-            "test",
+            "加载长图",
             "test",
             "test",
             "test",
@@ -125,6 +125,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 16:
                 startActivity(new Intent(this,SpringViewActivity.class));
+                break;
+            case 17:
+                startActivity(new Intent(this,BigImgActivity.class));
                 break;
         }
     }

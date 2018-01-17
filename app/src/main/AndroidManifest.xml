@@ -95,6 +95,12 @@
         <activity android:name=".activity.springviewactivity.WarningActivity"
             android:label="WarningActivity"
             android:theme="@style/AppTheme1.NoActionBar"/>
+
+
+
+        <!--加载长图片-->
+        <activity android:name=".activity.BigImgActivity"
+            android:screenOrientation="portrait"/>
     </application>
     <!--springview-->
 
