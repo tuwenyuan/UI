@@ -60,3 +60,5 @@ android ui 效果汇集
 
 #### 17.集成第三方SpringView效果 原地址（ https://github.com/liaoinstan/SpringView ）
 
+#### 18.加载长图片
+![加载长图片](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a14.gif)
