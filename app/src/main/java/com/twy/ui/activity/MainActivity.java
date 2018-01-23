@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "富文本",
             "SpringView",
             "加载长图",
-            "test",
+            "NestedScrolling特效1",
             "test",
             "test",
             "test",
@@ -128,6 +128,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 17:
                 startActivity(new Intent(this,BigImgActivity.class));
+                break;
+            case 18:
+                startActivity(new Intent(this,Style1Activity.class));
                 break;
         }
     }

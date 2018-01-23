@@ -101,6 +101,8 @@
         <!--加载长图片-->
         <activity android:name=".activity.BigImgActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.Style1Activity"
+            android:screenOrientation="portrait"/>
     </application>
     <!--springview-->
 
