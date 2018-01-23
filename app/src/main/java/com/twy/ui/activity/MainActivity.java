@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "加载长图",
             "Design特效1",
             "Design特效2",
-            "Design特效2",
+            "Design特效3",
             "test",
             "test",
             "test",
