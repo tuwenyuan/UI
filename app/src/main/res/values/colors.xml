@@ -44,7 +44,10 @@
     <color name="md_green_a700">#12c700</color>
 
     <color name="transparent">#00ffffff</color>
+    <color name="transparent1">#55ffffff</color>
 
     <color name="bgColor_back_word">#333333</color>
+
+    <color name="light">#FFFFFF</color>
 
 </resources>
