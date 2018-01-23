@@ -63,6 +63,12 @@ android ui 效果汇集
 #### 18.加载长图片
 ![加载长图片](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a14.gif)
 
-#### 19.NestedScrolling特效1
+#### 19.Designg特效1
 ![加载长图片](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a15.gif)
+
+#### 20.Designg特效2
+![Designg特效2](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a16.gif)
+
+#### 22.Designg特效3
+![Designg特效3](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a17.gif)
 
