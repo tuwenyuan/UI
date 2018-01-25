@@ -109,6 +109,8 @@
         <activity android:name=".activity.Style3Activity"
             android:theme="@style/TransparentTheme"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.DragScrollDetailActivity"
+            android:screenOrientation="portrait"/>
     </application>
     <!--springview-->
 
