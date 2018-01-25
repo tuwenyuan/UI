@@ -72,3 +72,6 @@ android ui 效果汇集
 #### 22.Designg特效3
 ![Designg特效3](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a17.gif)
 
+#### 23.仿京东淘宝商品详情
+![仿京东淘宝商品详情](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a18.gif)
+
