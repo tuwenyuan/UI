@@ -26,7 +26,7 @@ android ui 效果汇集
 ![zxing生成二维码](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/zxing.png)
 
 #### 8.android中转动画效果(24.Google api实现过度到另一个界面的动画效果)
-![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a13.gif)![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a19.gif){:height="100px" width="200px"}
+![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a13.gif)![android中转动画效果](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a19.gif)
 
 #### 9.扩展pull_to_refresh 首次自动下拉刷新及滑到底部自动加载更多等...
 ![pull_to_refresh](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/pull_to_refresh_expend.gif)
