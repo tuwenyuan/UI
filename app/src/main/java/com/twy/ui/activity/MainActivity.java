@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "Design特效2",
             "Design特效3",
             "仿京东淘宝商品详情",
-            "test",
+            "android中转场动画2",
             "test",
             "test",
             "test",
@@ -140,6 +140,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 21:
                 startActivity(new Intent(this,DragScrollDetailActivity.class));
+                break;
+            case 22:
+                startActivity(new Intent(this,Anime2Activity.class));
                 break;
         }
     }

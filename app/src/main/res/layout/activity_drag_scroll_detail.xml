@@ -13,13 +13,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:text="firstScrollViewContent"
-                    android:textSize="16sp"
-                    android:textColor="#f00"
-                    android:gravity="center"/>
+                <ImageView
+                    android:id="@+id/iv"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:scaleType="fitCenter"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
