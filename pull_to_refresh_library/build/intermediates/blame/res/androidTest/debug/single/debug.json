@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_default_ptr_rotate.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_out_to_top.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_default_ptr_flip.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_refresh_header_vertical.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_refresh_header.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_default_ptr_rotate.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_out_to_bottom.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_in_from_top.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_progress_loading.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\progress_loading.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_icon_loading.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\icon_loading.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_default_ptr_flip.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_refresh_header_horizontal.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_pull_to_load_footer.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_load_footer.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_indicator_arrow.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_update_loading_progressbar_anim.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\anim\\update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_refresh_progress.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_refresh_progress.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_default_ptr_flip.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_indicator_bg_top.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_default_ptr_rotate.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_icon_loading.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\icon_loading.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_refresh.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_refresh.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_indicator_arrow.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_slide_in_from_bottom.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_indicator_arrow.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_icon_loading.png.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\icon_loading.png"
+    },
+    {
+        "merged": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_indicator_bg_bottom.xml.flat",
+        "source": "F:\\code\\UI\\pull_to_refresh_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

@@ -42,4 +42,5 @@ dependencies {
     implementation project(':guide_view_library')
     implementation project(':timepickerviewlib')
     implementation project(':springviewlibrary')
+    implementation project(':videolib')
 }

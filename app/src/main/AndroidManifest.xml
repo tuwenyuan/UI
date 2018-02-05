@@ -115,6 +115,9 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".activity.Anime2DetailActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.VideoActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
     </application>
     <!--springview-->
 
