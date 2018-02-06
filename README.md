@@ -75,3 +75,6 @@ android ui 效果汇集
 #### 23.仿京东淘宝商品详情
 ![仿京东淘宝商品详情](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a18.gif)
 
+#### 20.视频播放
+![视频播放](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a20.gif)
+
