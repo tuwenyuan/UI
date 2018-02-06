@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "仿京东淘宝商品详情",
             "android中转场动画2",
             "视频播放",
-            "test",
+            "引导页",
             "test",
             "test"
     };
@@ -146,6 +146,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 23:
                 startActivity(new Intent(this,VideoActivity.class));
+                break;
+            case 24:
+                startActivity(new Intent(this,SplashActivity.class));
                 break;
         }
     }
