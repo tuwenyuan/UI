@@ -14,6 +14,7 @@ import com.fy.videolib.JCVideoPlayerStandard;
 import com.twy.ui.R;
 import com.twy.ui.databinding.ActivityVideoBinding;
 import com.twy.ui.listener.MyUserActionStandard;
+import com.twy.ui.utils.StatusBarUtil;
 
 /**
  * Created by twy on 2018/2/5.
@@ -32,6 +33,8 @@ public class VideoActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        StatusBarUtil.setTranslucentForImageView(this,0,null);
+        binding.vStatus.getLayoutParams().height = StatusBarUtil.getStatusBarHeight(this);
         JCVideoPlayer.setJcUserAction(new MyUserActionStandard());
         binding.video.setActivity(this);
         binding.video.setUp("http://owmd1e3cy.bkt.clouddn.com/%E8%93%9D%E5%A4%A9%E5%BC%98%E6%9E%97%E9%BB%84%E8%8A%B1%E6%A2%A8%E6%88%90%E7%89%87~3.mp4"
@@ -64,9 +67,9 @@ public class VideoActivity extends AppCompatActivity {
           3）. View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN ：Activity全屏显示，但是状态栏不会被覆盖掉，而是正常显示，只是Activity顶端布 局会被覆盖住
           4）.View.INVISIBLE ： Activity全屏显示，隐藏状态栏*/
         if (newConfig.orientation == this.getResources().getConfiguration().ORIENTATION_PORTRAIT) { //切换为竖屏
-            this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
+            binding.getRoot().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
         } else if (newConfig.orientation == this.getResources().getConfiguration().ORIENTATION_LANDSCAPE) {//切换为横屏
-            this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
+            binding.getRoot().setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
         }
     }
 
