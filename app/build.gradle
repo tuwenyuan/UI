@@ -43,4 +43,5 @@ dependencies {
     implementation project(':timepickerviewlib')
     implementation project(':springviewlibrary')
     implementation project(':videolib')
+    implementation project(':jzvideoplayer')
 }

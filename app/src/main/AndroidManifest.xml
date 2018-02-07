@@ -118,6 +118,9 @@
         <activity android:name=".activity.VideoActivity"
             android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.Video2Activity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"/>
     </application>
