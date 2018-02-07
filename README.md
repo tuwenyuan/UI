@@ -78,3 +78,6 @@ android ui 效果汇集
 #### 20.视频播放
 ![视频播放](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a20.gif)
 
+#### 21.引导页
+![引导页](https://github.com/tuwenyuan/UI/blob/master/app/src/main/res/mipmap-xhdpi/a21.gif)
+
