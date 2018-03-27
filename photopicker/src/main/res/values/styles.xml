@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <!--
+        // Android Toolbar 样式定制
+        http://www.cnblogs.com/oyjt/p/4762640.html
+     -->
+    <style name="PhotoPicker.Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- toolbar菜单样式 -->
+    <style name="PhotoPicker.ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextAppearance">@style/PhotoPicker.ToolbarMenuTextSize</item>
+        <item name="android:actionBarSize">56dp</item>
+    </style>
+
+    <!-- toolbar菜单文字尺寸 -->
+    <style name="PhotoPicker.ToolbarMenuTextSize" parent="@style/TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
