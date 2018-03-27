@@ -11,6 +11,7 @@ import com.twy.ui.R;
 import com.twy.ui.activity.springviewactivity.SpringViewActivity;
 import com.twy.ui.adpter.SubjectRvAdapter;
 import com.twy.ui.databinding.ActivityMainBinding;
+import com.twy.ui.runtime_permissions_check.RuntimePermissionsActivity;
 
 import java.util.Arrays;
 
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "视频播放",
             "视频播放2",//原作者地址 https://github.com/lipangit/JiaoZiVideoPlayer
             "引导页",
-            "test"
+            "photoPicker"
     };
     private ActivityMainBinding dataBinding;
     private SubjectRvAdapter mAdapter;
@@ -152,6 +153,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 25:
                 startActivity(new Intent(this,SplashActivity.class));
+                break;
+            case 26:
+                startActivity(new Intent(this,RuntimePermissionsActivity.class));
                 break;
         }
     }

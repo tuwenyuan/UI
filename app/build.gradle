@@ -44,4 +44,22 @@ dependencies {
     implementation project(':springviewlibrary')
     implementation project(':videolib')
     implementation project(':jzvideoplayer')
+
+    implementation 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    implementation 'io.reactivex:rxjava:1.1.8'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+    //图片框架
+    compile 'com.facebook.fresco:fresco:0.9.0'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'org.xutils:xutils:3.1.22'
+    implementation project(':photopicker')
+    compile 'me.relex:photodraweeview:1.0.0'
+    //photopick
+    compile 'cn.finalteam:galleryfinal:1.4.6'
 }

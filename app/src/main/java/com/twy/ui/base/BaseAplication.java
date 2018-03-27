@@ -20,7 +20,7 @@ import java.io.File;
 public class BaseAplication extends Application {
 
 
-    private static Context instance;
+    private static BaseAplication instance;
     public static Handler mHandler;
 
     @Override
@@ -31,7 +31,7 @@ public class BaseAplication extends Application {
         initImageLoader(getApplicationContext());
     }
 
-    public static Context getInstance() {
+    public static BaseAplication getInstance() {
         return instance;
     }
 

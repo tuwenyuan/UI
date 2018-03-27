@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/guide_view_library/guide_view_library.iml" filepath="$PROJECT_DIR$/guide_view_library/guide_view_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/jzvideoplayer/jzvideoplayer.iml" filepath="$PROJECT_DIR$/jzvideoplayer/jzvideoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photopicker/photopicker.iml" filepath="$PROJECT_DIR$/photopicker/photopicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/pull_to_refresh_library/pull_to_refresh_library.iml" filepath="$PROJECT_DIR$/pull_to_refresh_library/pull_to_refresh_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/springviewlibrary/springviewlibrary.iml" filepath="$PROJECT_DIR$/springviewlibrary/springviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/timepickerviewlib/timepickerviewlib.iml" filepath="$PROJECT_DIR$/timepickerviewlib/timepickerviewlib.iml" />

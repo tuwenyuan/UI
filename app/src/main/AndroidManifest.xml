@@ -123,6 +123,19 @@
             android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"/>
+        <!---->
+        <activity android:name=".runtime_permissions_check.RuntimePermissionsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="cc.dagger.photopicker.MultiImageSelectorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NO_ACTIONBAR" />
+
+        <activity
+            android:name="cc.dagger.photopicker.PhotoPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NO_ACTIONBAR"/>
+        <!--end-->
     </application>
     <!--springview-->
 
