@@ -210,6 +210,7 @@ public class RuntimePermissionsActivity extends AppCompatActivity {
                 for (String p : mSelectPath) {
                     sb.append(p);
                     sb.append("\n");
+
                 }
                 mResultText.setText(sb.toString());
 
