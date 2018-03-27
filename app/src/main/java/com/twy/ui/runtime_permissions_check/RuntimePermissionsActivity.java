@@ -213,7 +213,6 @@ public class RuntimePermissionsActivity extends AppCompatActivity {
 
                 }
                 mResultText.setText(sb.toString());
-
                 //对选择的图片处理  注意文件读写权限要动态申请
 //                cameraFile = new File(sb.toString().split("\n")[0]);
 //                //showLoading(true);
