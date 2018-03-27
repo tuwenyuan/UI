@@ -3,6 +3,7 @@ package com.twy.ui.base;
 import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
+import android.os.StrictMode;
 
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -28,6 +29,12 @@ public class BaseAplication extends Application {
         super.onCreate();
         instance = this;
         mHandler = new Handler();
+
+        // android 7.0系统解决拍照的问题
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
+        builder.detectFileUriExposure();
+
         initImageLoader(getApplicationContext());
     }
 
