@@ -135,6 +135,9 @@
             android:screenOrientation="portrait"
             android:theme="@style/NO_ACTIONBAR"/>
         <!--end-->
+
+        <activity android:name=".activity.QQTipsViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
     <!--springview-->
 

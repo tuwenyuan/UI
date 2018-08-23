@@ -45,7 +45,8 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
             "视频播放",
             "视频播放2",//原作者地址 https://github.com/lipangit/JiaoZiVideoPlayer
             "引导页",
-            "photoPicker"
+            "photoPicker",
+            "QQ气泡拖拽效果"
     };
     private ActivityMainBinding dataBinding;
     private SubjectRvAdapter mAdapter;
@@ -156,6 +157,9 @@ public class MainActivity extends AppCompatActivity implements SubjectRvAdapter.
                 break;
             case 26:
                 startActivity(new Intent(this,RuntimePermissionsActivity.class));
+                break;
+            case 27:
+                startActivity(new Intent(this,QQTipsViewActivity.class));
                 break;
         }
     }
