@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/pull_to_refresh_library/pull_to_refresh_library.iml" filepath="$PROJECT_DIR$/pull_to_refresh_library/pull_to_refresh_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/springviewlibrary/springviewlibrary.iml" filepath="$PROJECT_DIR$/springviewlibrary/springviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/timepickerviewlib/timepickerviewlib.iml" filepath="$PROJECT_DIR$/timepickerviewlib/timepickerviewlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipsview/tipsview.iml" filepath="$PROJECT_DIR$/tipsview/tipsview.iml" />
       <module fileurl="file://$PROJECT_DIR$/videolib/videolib.iml" filepath="$PROJECT_DIR$/videolib/videolib.iml" />
     </modules>
   </component>
