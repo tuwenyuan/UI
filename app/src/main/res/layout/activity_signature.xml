@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_border_e03">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/left_top"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/right_top"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/left_bottom"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/right_bottom"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/shape_border_e03">
+            <com.twy.ui.view.SignatureView
+                android:id="@+id/v_signature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="26dp"
+                android:layout_height="100dp"
+                android:text="签名区域"
+                android:textColor="#ff333333"
+                android:textSize="18sp"
+                android:layout_marginLeft="30dp"
+                android:layout_centerVertical="true"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_alignParentBottom="true"
+                android:background="@mipmap/flower"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:textColor="#f00"
+            android:text="保存"/>
+
+    </RelativeLayout>
+</layout>

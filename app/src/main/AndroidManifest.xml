@@ -122,6 +122,12 @@
             android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity android:name=".activity.SplashActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ProgressViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SignatureActivity"
+            android:screenOrientation="landscape"/>
         <!---->
         <activity android:name=".runtime_permissions_check.RuntimePermissionsActivity"
             android:screenOrientation="portrait"/>
